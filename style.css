@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'young-serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+   /* height: 100vh;  Optional: gives the container full viewport height */
+    padding-top: 20px; /* Adds some space from the top of the container */
+    flex-direction: column; /* Stacks items vertically */
+    padding: 20px;
+}
+#omlette{
+   border-radius:10px ;
+   width: 400px;
+}
+#p1 {
+   font-family: 'outfit',sans-serif;
+   padding-left: 5px;
+   
+}
+#p1 p{
+    font-size: 13px;
+}
+#p h3{
+    font-family: 'young-serif', sans-serif;
+    
+}
+.pre_time h4{
+    color: hsl(332, 51%, 32%);
+}
+.pre_time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    
+}
+.pre_time ul{
+   padding-left: 20px;
+   margin-top: -15px;
+   list-style-type: disc;
+   list-style-position: inside;
+}
+.pre_time li {
+    font-size: 12px; /* Makes the list item text smaller, which also reduces bullet size */
+    color:hsl(24, 5%, 18%);
+}
+
+.ingred h3{
+color: hsl(14, 45%, 36%);
+}
+.ingred ul{
+   padding-left: 20px;
+   margin-top: -15px;
+   list-style-type: disc;
+   list-style-position: inside;
+}
+.ingred li {
+    font-size: 12px; 
+    color: hsl(24, 5%, 18%)
+}
+
+.inst h3{
+    color: hsl(14, 45%, 36%);
+}
+.inst ol{
+    padding-left: 23px;
+    margin-top: -15px;
+ }
+.inst ol ::marker{
+    color: hsl(14, 45%, 36%);/*change numbers color*/
+}
+ .inst li {
+     font-size: 12px; 
+     color: hsl(24, 5%, 18%)
+ }
+ .nutri table {
+    width: 100%; /* Ensures the table takes up the full width of the container */
+    border-collapse: collapse; /* Removes extra space between borders */
+}
+ .nutri h3{
+    color: hsl(14, 45%, 36%);
+ }
+ .nutri tr{
+    height: 30px;
+    border-bottom: groove;
+  
+ }
+ .nutri tr td{
+    padding-left: 10px;
+    font-size: 16px;
+ }
+ .nutri .t {
+    color: hsl(14, 45%, 36%);
+    text-align: left /* Aligns the text in the second column to the right */
+}
+.nutri p{
+    font-size: 13px;
+    color: hsl(24, 5%, 18%);
+    margin-top: -15px;
+}
+
